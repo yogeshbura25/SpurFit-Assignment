@@ -5,7 +5,7 @@ import { FaRegCopyright } from "react-icons/fa";
 import "./index.css";
 
 const Contact = () => (
-  <footer className="footer-container">
+  <div className="footer-container">
     <div className="footer-logo-title">
       <img
         src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNUHHhmODkp6LXZiHf1FRJNpV3ukrlxjHgNMQTNQ46WNCTL5RV0ACYYWt_HrbfX08YLms&usqp=CAU"
@@ -37,7 +37,7 @@ const Contact = () => (
       <FaRegCopyright size={10} className="copyright-icon" />
       2022 Ahead app. All rights reserved.
     </p>
-  </footer>
+  </div>
 );
 
 export default Contact;
