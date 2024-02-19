@@ -1,6 +1,7 @@
 import "./index.css";
 
 const Home = () => (
+  <div className="full-home-page">
   <div className="home-page">
     <div className="home-content">
       <p className="ahead-text">Ahead app</p>
@@ -26,6 +27,7 @@ const Home = () => (
       className="home-image"
       alt="home"
     />
+  </div>
   </div>
 );
 
